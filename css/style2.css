@@ -1,0 +1,74 @@
+.btn {
+    background-color:  rgb(176, 176, 233); 
+    border: none;
+    color: white;
+    padding: 14px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 3px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .btn1{
+    background-color: white; 
+    height: 45px;
+    color: rgb(26, 26, 87); 
+    border: 2px solid  rgb(103, 103, 226);
+  }
+  
+  .btn1:hover {
+    background-color:  rgb(103, 103, 226);
+    color: white;
+  }
+  .btn:hover {
+    background-color:  rgb(103, 103, 226);
+    color: white;
+  }
+  
+  .link{
+    margin-left: 10px;
+    font-size:20px;
+    margin-top:10px;
+    display: block;
+    width: 50px;
+    text-decoration: none;
+  }
+  .link:link {
+    color: rgb(103, 103, 226);
+  }
+  .link:visited {
+    color: green;
+  }
+  
+  .link:hover {
+    color: hotpink;
+  }
+  .link:active {
+    color: blue;
+  }
+
+  .link1{
+    font-size:18px;
+    margin-top:10px;
+    text-decoration: none;
+  }
+  .link1:link1 {
+    color: rgb(103, 103, 226);
+  }
+  .link1:visited {
+    color: green;
+  }
+  
+  .link1:hover {
+    color: hotpink;
+  }
+  .link1:active {
+    color: blue;
+  }
+  #img{
+    border-radius: 50%;
+  }

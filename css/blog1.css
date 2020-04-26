@@ -1,0 +1,88 @@
+.content1{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+* {
+    box-sizing: border-box;
+    margin-left: 6px;
+  }
+.header1{
+    padding:10px;
+    color: rgb(8, 8, 8);
+    
+}
+.content1{
+    padding: 10px;
+    color: rgb(8, 8, 8);
+    height:auto;
+}
+.nestedgrid1{
+    display: block;
+    grid-template-columns: auto 250px;
+}
+.main1{
+    padding:10px;
+    color: rgb(8, 8, 8);
+}
+.sidebar1{
+    padding:8px;
+    color: rgb(8, 8, 8);
+}
+.about1{
+    background-color: rgb(235, 229, 229);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.vl1 {
+    border-left: 4px solid rgb(103, 103, 226);
+    height: 35px;
+    background-color: rgb(192, 192, 248);
+  }
+  .vl1 p{
+    font-style: italic;
+    color: blue;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float:left;
+  }
+  .responsive {
+    width: 75%;
+    height: auto;
+  }
+  .backlink{
+    font-size:20px;
+    text-decoration: none;
+  }
+  .backlink:backlink {
+    color: rgb(103, 103, 226);
+  }
+  .backlink:visited {
+    color: rgb(206, 23, 23);
+  }
+  .backlink:hover {
+    color: hotpink;
+  }
+  .backlink:active {
+    color: blue;
+  }
+@media(min-width:600px) and (max-width:900px){
+    .nestedgrid1{
+        display: block;
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+@media(min-width: 900px){
+    .nestedgrid1{
+        display: inline-grid;
+        flex-direction: column;
+        align-items: stretch;
+    }
+}

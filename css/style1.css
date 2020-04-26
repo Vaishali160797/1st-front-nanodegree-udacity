@@ -1,0 +1,45 @@
+.nestedgrid{
+    display: grid;
+    grid-template-areas: 
+    "first"
+    "sec"
+    "third";
+    margin-top: 100px;
+    justify-content: center;
+   }
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card{
+    grid-area: first;
+    margin:7px;
+    text-align: center;
+    background-color:  rgb(172, 172, 179);
+    box-shadow: 0 4px 8px 0 rgba(14, 6, 6, 0.2);
+    transition: 0.3s;
+}
+.card p{
+    font-style: italic;
+    color: rgb(45, 81, 121);
+    font-size: 18px;
+}
+.card a:hover{
+    color: rgb(8, 83, 102);
+}
+#second{
+    grid-area: sec;
+}
+
+#third{
+    grid-area: third;
+}
+@media(min-width:600px) and (max-width:900px) {
+    .nestedgrid{
+        display: flex;
+           }
+    }
+ @media(min-width:900px) {
+    .nestedgrid{
+        display: flex;
+           }
+    }
